@@ -1,0 +1,140 @@
+.bg-image{
+    background-image: url(KIIT-Campus.jpg);
+    -webkit-backdrop-size:cover;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+.bg-image div img{
+    opacity:.6;
+}
+.navbar-brand{
+    padding:0px;
+    margin:0px;
+}
+.nav-item{
+    font-weight: bolder;
+}
+#star{
+    background-color: brown;
+}
+.logo{
+    margin-top:0px;
+    padding:0;
+}
+nav.black{
+    background-color:black;
+    opacity: .6;
+}
+.heading::before{
+    content:'';
+    display: block;
+    width:70px;
+    height:2px;
+    background-color: white;
+    position: absolute;
+    left:250px;
+    top: 50%;
+    z-index: -2;
+}
+.heading::after{
+    content:'';
+    display: block;
+    width:70px;
+    height:2px;
+    background-color: white;
+    position: absolute;
+    right:250px;
+    top: 50%;
+    z-index: -2;
+}
+.form-box{
+    width: 650px;
+    height: 285px;
+  border: 5px solid burlywood;
+}
+.box{
+    width:20px;
+    left:0%;
+    right:100%;
+    background-color: chocolate;
+    margin-right:10px;
+}
+.for-box{
+    padding:20px;
+}
+.ftr{
+    background-color: bisque;
+}
+.btnn{
+    border-radius: 0 0 50% 50% ;
+}
+#btn-2{
+    border-radius: 0 0 50% 50% ;
+}
+@media(max-width:577px )
+{
+   .form-box{
+    width:25rem;
+    height: 27rem;
+   }
+   .for-box{
+       padding:10px;
+   }
+   #btn-2{
+       margin-top: -50px;
+       border-radius: 100%;
+    justify-content: center;
+   }
+   .btnn{
+       margin-top:20px; 
+    justify-content: center;
+    margin-left:30px;
+   }
+}
+.wrapper{
+    color:darkseagreen;
+}
+.wrapper span::before{
+    content:"";
+    animation: animate infinite 5s;
+
+}
+@keyframes animate{
+    0% {
+        content:'KIITIANS';
+    }
+    50%{
+        content: 'WARDENS';
+    }
+}
+.tbl{
+  margin: 20% auto;
+}
+.hostel-drpdwn{
+    height:60px;
+    overflow:auto;
+}
+.table
+{
+    table-layout: fixed;
+    width: 900px;
+    margin: 0 auto;
+    overflow-y: hidden
+}
+.box{
+    background-color:#aebbb5;
+    width:100%;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    margin-top: 20px;
+}
+.card-header{
+    background-color: #528060;
+    color: white;
+}
+.warden-side-complaint-table{
+    margin: 30% auto;
+    margin-top:50%;
+}
